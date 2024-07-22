@@ -1,0 +1,52 @@
+﻿# Visual Studio
+.vs/
+*.user
+*.suo
+*.vcxproj.user
+*.vcxproj.filters
+*.pdb
+*.obj
+*.exe
+*.dll
+*.lib
+*.cache
+*.ilk
+*.log
+*.ncb
+*.sdf
+*.ipch
+*.aps
+*.pch
+*.idb
+*.ipdb
+*.opendb
+
+# Visual Studio Code
+.vscode/
+
+# Build Directories
+bin/
+obj/
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of the above
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio temporary files
+*.tlog
+*.lastcodeanalysissucceeded
+
+# Others
+_ReSharper*
+*.resharper
